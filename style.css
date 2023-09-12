@@ -1,8 +1,17 @@
-html, body {
+@keyframes pulse {
+    0% {
+        width: 180px;
+    } 
+    100% {
+        width: 220px;
+    }
+}
+
+html {
     height: 100%;
 }
 
-.wrapper {
+body {
     background-color: red;
     display: flex;
     flex-direction: row;
@@ -33,8 +42,9 @@ div.disclaimer {
     background-color: lightblue;
     border: cornflowerblue solid 2px;
     border-radius: 10px;
+    padding-left: 10px;
 }
 
 .dl {
-    width: 200px;
+    animation: pulse 2s ease-in-out 0s infinite alternate;
 }
