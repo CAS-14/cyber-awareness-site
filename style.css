@@ -27,7 +27,7 @@ body.tips {
     background-color: #a62830;
 }
 
-.tips h2, p, li {
+.tips h2, .tips p, .tips li {
     color: white;
 }
 
