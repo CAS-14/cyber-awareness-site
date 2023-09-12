@@ -1,9 +1,9 @@
 @keyframes pulse {
     0% {
-        width: 175px;
+        width: 150px;
     } 
     100% {
-        width: 225px;
+        width: 250px;
     }
 }
 
@@ -17,6 +17,18 @@ body {
     flex-direction: row;
     justify-content: center;
     height: 100%;
+}
+
+body.scam {
+    background-color: red;
+}
+
+body.tips {
+    background-color: #a62830;
+}
+
+.tips h2, p, li {
+    color: white;
 }
 
 p, span, a, h2, h3 {
@@ -51,4 +63,11 @@ div.disclaimer {
 
 .dl {
     animation: pulse 2s ease-in-out 0s infinite alternate;
+}
+
+.holder {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
