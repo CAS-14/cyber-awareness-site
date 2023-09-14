@@ -81,9 +81,11 @@ div.disclaimer {
     flex-direction: row;
     height: 300px;
     width: 100%;
+    align-items: center;
+    justify-items: center;
 }
 
 .r img {
     height: 100%;
-    width: 33%;
+    width: 30%;
 }
