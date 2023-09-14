@@ -75,3 +75,15 @@ div.disclaimer {
     align-items: center;
     justify-items: center;
 }
+
+.r {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 100%;
+}
+
+.r img {
+    height: 100%;
+    width: 33%;
+}
