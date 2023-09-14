@@ -70,7 +70,7 @@ div.disclaimer {
 }
 
 .holder {
-    height: 200px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -79,7 +79,7 @@ div.disclaimer {
 .r {
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: 300px;
     width: 100%;
 }
 
