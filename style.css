@@ -50,6 +50,9 @@ h1 {
     align-items: center;
     height: 90%;
     width: 50%;
+}
+
+body.scam .main {
     background-color: white;
 }
 
