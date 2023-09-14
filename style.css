@@ -23,14 +23,6 @@ body.scam {
     background-color: red;
 }
 
-body.tips {
-    background-color: #a62830;
-}
-
-.tips h2, .tips p, .tips li, .tips a {
-    color: white;
-}
-
 p, span, a, h2, h3, li {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,6 +47,15 @@ h1 {
 
 body.scam .main {
     background-color: white;
+}
+
+body.tips .main {
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+}
+
+h2 {
+    color: #a62830;
 }
 
 div.disclaimer {
