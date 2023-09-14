@@ -27,7 +27,7 @@ body.tips {
     background-color: #a62830;
 }
 
-.tips h2, .tips p, .tips li {
+.tips h2, .tips p, .tips li, .tips a {
     color: white;
 }
 
@@ -50,6 +50,7 @@ h1 {
     align-items: center;
     height: 90%;
     width: 50%;
+    padding: 20px;
 }
 
 body.scam .main {
@@ -57,7 +58,7 @@ body.scam .main {
 }
 
 div.disclaimer {
-    margin: 50px;
+    margin: 20px;
     background-color: lightblue;
     border: cornflowerblue solid 2px;
     border-radius: 10px;
