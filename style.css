@@ -27,7 +27,7 @@ body.tips {
     background-color: white;
 }
 
-p, span, a, h2, h3, li {
+p, span, h2, h3, li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -99,7 +99,7 @@ img.cat {
     width: 80%;
 }
 
-li {
+li, a {
     font-size: 18px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
