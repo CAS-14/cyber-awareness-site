@@ -94,3 +94,7 @@ div.disclaimer {
     height: 100%;
     width: 33%;
 }
+
+li {
+    font-size: 14px;
+}
